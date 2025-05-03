@@ -1,63 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Jean Paul Collazo</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: #000;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 8px;
+      height: 100%;
+      background-color: #e6f0ff; /* Light blue line */
+      z-index: 1;
+    }
+
+    body.dark {
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: var(--accent, #e6f0ff);
+      padding: 30px;
+      text-align: center;
+    }
+
+    header a {
+      color: #003366;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .project {
+      margin-bottom: 40px;
+    }
+
+    .project h4 span {
+      font-weight: normal;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .content-box {
+      background-color: white;
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 900px;
+      border-left: 6px solid #005fa3;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+  </style>
 </head>
-<style>
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: white;
-    color: #000;
-  }
-
-  body::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 8px;
-    height: 100%;
-    background-color: #e6f0ff; /* Light blue line */
-    z-index: 1;
-  }
-
-  body.dark {
-    background-color: #121212;
-    color: #f0f0f0;
-  }
-
-  header {
-    background-color: var(--accent, #e6f0ff);
-    padding: 30px;
-    text-align: center;
-  }
-
-  header a {
-    color: #003366;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-  }
-
-  footer {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .project {
-    margin-bottom: 40px;
-  }
-
-  .project h4 span {
-    font-weight: normal;
-    font-size: 14px;
-    color: gray;
-  }
-</style>
 
 <body>
 <script>
@@ -66,14 +76,15 @@
   }
 </script>
 
-<header style="background-color: var(--accent, #e6f0ff); padding: 30px; text-align: center; font-family: 'Segoe UI', sans-serif;">
+<header>
   <h1 style="margin-bottom: 10px;">📎 Project Portfolio</h1>
   <p>
-    <a href="index.html" style="color: #003366; font-weight: bold; font-size: 16px; text-decoration: none;">
-      ← Back to Portfolio
-    </a>
+    <a href="index.html">← Back to Portfolio</a>
   </p>
 </header>
+
+<div class="content-box">
+  <p>👋 Welcome! Here you’ll find a list of my academic and professional data science and engineering projects. Each one reflects my passion for solving real-world problems through analytics, experimentation, and optimization.</p>
 
 
   <main class="projects" style="max-width: 1000px; margin: auto; padding: 20px;">
