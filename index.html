@@ -35,20 +35,32 @@
         <img src="https://github.com/jeanpaul2102/jeanpaul2102.github.io/raw/main/Washington_DC.jpg" alt="Jean Paul Collazo in Washington DC" style="max-width: 243px; border-radius: 10px; margin-bottom: 15px;">
         <h1>Jean Paul Collazo</h1>
         <p>Data Science & Engineering Management Portfolio</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#photos">Photos</a>
-            <a href="#contact">Contact</a>
-            <a href="#interests">Interests</a>
-            <a href="https://github.com/jeanpaul2102" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/jeanpaulcollazo/" target="_blank">LinkedIn</a>
-            <button onclick="toggleTheme()">Toggle Theme</button>
-        </nav>
+        <nav style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; padding: 10px; background-color: var(--accent);">
+  <button onclick="toggleMenu()" style="padding: 8px 14px; border: none; font-weight: bold; background-color: white; color: var(--accent); border-radius: 4px;">☰ Menu</button>
+  <a href="https://github.com/jeanpaul2102" target="_blank">GitHub</a>
+  <a href="https://www.linkedin.com/in/jeanpaulcollazo/" target="_blank">LinkedIn</a>
+  <a href="mailto:jeanpaul.collazo.597@my.csun.edu">Email</a>
+  <button onclick="toggleTheme()">Toggle Theme</button>
+</nav>
+
+<div id="popupMenu" style="display: none; text-align: center; background: var(--card-bg-light); padding: 10px; margin-top: 5px; border-top: 1px solid #ccc;">
+  <a href="#about">About</a> |
+  <a href="#experience">Experience</a> |
+  <a href="#education">Education</a> |
+  <a href="#projects">Projects</a> |
+  <a href="#skills">Skills</a> |
+  <a href="#certifications">Certifications</a> |
+  <a href="#photos">Photos</a> |
+  <a href="#contact">Contact</a> |
+  <a href="#interests">Interests</a>
+</div>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('popupMenu');
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+  }
+</script>
     </header>
 
     <section id="full-pdf-content">
@@ -278,6 +290,6 @@
     <script async src="https://cdn.counter.dev/script.js" 
             data-id="jeanpaul2102.github.io" 
             data-utcoffset="-8"></script>
-    <p style="text-align:center; font-size: 0.9em;">Visitor count powered by <a href="https://counter.dev" target="_blank">counter.dev</a></p>
+    
 </body>
 </html>
