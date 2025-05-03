@@ -6,7 +6,66 @@
   <title>Projects | Jean Paul Collazo</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: #000;
+  }
+
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background-color: #e6f0ff; /* Light blue line */
+    z-index: 1;
+  }
+
+  body.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+
+  header {
+    background-color: var(--accent, #e6f0ff);
+    padding: 30px;
+    text-align: center;
+  }
+
+  header a {
+    color: #003366;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .project {
+    margin-bottom: 40px;
+  }
+
+  .project h4 span {
+    font-weight: normal;
+    font-size: 14px;
+    color: gray;
+  }
+</style>
+
 <body>
+<script>
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+  }
+</script>
+
 <header style="background-color: var(--accent, #e6f0ff); padding: 30px; text-align: center; font-family: 'Segoe UI', sans-serif;">
   <h1 style="margin-bottom: 10px;">📎 Project Portfolio</h1>
   <p>
