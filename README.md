@@ -1,7 +1,7 @@
 <img src="https://github.com/jeanpaul2102/jeanpaul2102.github.io/raw/main/DB.jpg" alt="Jean Paul Collazo" width="50%">
 
 # Jean Paul Collazo |
-Data Science & Engineering Management Portfolio
+# Data Science & Engineering Management Portfolio
 
 Welcome to my personal portfolio website, built with HTML and CSS and hosted via GitHub Pages. This site showcases my academic background, technical skills, professional experience, and data-driven projects.
 
