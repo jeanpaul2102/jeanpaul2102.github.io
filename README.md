@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website, built with HTML and CSS and hosted via GitHub Pages. This site showcases my academic background, technical skills, professional experience, and data-driven projects.
 
-![Washington DC](https://github.com/jeanpaul2102/jeanpaul2102.github.io/raw/main/Washington_DC.jpg)
+![DB](https://github.com/jeanpaul2102/jeanpaul2102.github.io/raw/main/Washington_DC.jpg)
 
 ## 🔗 Live Site
 
