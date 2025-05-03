@@ -4,8 +4,6 @@
 
 Welcome to my personal portfolio website, built with HTML and CSS and hosted via GitHub Pages. This site showcases my academic background, technical skills, professional experience, and data-driven projects.
 
-![Jean Paul Collazo](https://github.com/jeanpaul2102/jeanpaul2102.github.io/raw/main/DB.jpg)
-
 ## 🔗 Live Site
 
 You can view the portfolio live at:  
