@@ -29,6 +29,25 @@
         }
     </script>
     
+<style>
+  /* Professional hover effect for menu links */
+  #popupMenu a {
+    color: var(--accent);
+    font-weight: 600;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+  }
+  #popupMenu a:hover {
+    text-decoration: underline;
+    color: #005fa3;
+  }
+
+  /* Zoom effect for certificate/project links */
+  a[target="_blank"]:hover {
+    transform: scale(1.08);
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+</style>
 </head>
 <body>
     <header>
@@ -43,16 +62,18 @@
   <button onclick="toggleTheme()">Toggle Theme</button>
 </nav>
 
-<div id="popupMenu" style="display: none; text-align: center; background: var(--card-bg-light); padding: 10px; margin-top: 5px; border-top: 1px solid #ccc;">
-  <a href="#about">About</a> |
-  <a href="#experience">Experience</a> |
-  <a href="#education">Education</a> |
-  <a href="#projects">Projects</a> |
-  <a href="#skills">Skills</a> |
-  <a href="#certifications">Certifications</a> |
-  <a href="#photos">Photos</a> |
-  <a href="#contact">Contact</a> |
-  <a href="#interests">Interests</a>
+<div id="popupMenu" style="display: none; background-color: var(--card-bg-light); border-top: 2px solid var(--accent); padding: 10px; margin-top: 5px;">
+  <ul style="list-style: none; padding-left: 0; margin: 0; max-width: 300px; margin-inline: auto;">
+    <li style="padding: 8px 0; text-align: center;"><a href="#about">About</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#experience">Experience</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#education">Education</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#projects">Projects</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#skills">Skills</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#certifications">Certifications</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#photos">Photos</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#contact">Contact</a></li>
+    <li style="padding: 8px 0; text-align: center;"><a href="#interests">Interests</a></li>
+  </ul>
 </div>
 
 <script>
@@ -240,16 +261,22 @@
         </ul>
 
         <h3 id="certifications">📜 Certifications</h3>
-        <ul>
-            <li>UCLA Data Science Certificate – Sep 2024</li>
-            <li>Six Sigma Green Belt (CSUN) – May 2024</li>
-            <li>Google Cybersecurity Professional Certificate – Jan 2024</li>
-            <li>IBM Applied Software Engineering Fundamentals – In Progress</li>
-        </ul>
+<ul>
+  <li>UCLA Data Science Certificate – Sep 2024 <a href="https://www.coursera.org/account/accomplishments/specialization/JYCEHETHBHHL" target="_blank">📄</a></li>
+  <li>Six Sigma Green Belt (CSUN) – May 2024 <a href="https://drive.google.com/file/d/116pEltPXMAfpEPM5QmbMK6RdMvBC4ilM/view" target="_blank">📄</a></li>
+  <li>Google Cybersecurity Professional Certificate – Jan 2024</li>
+  <li>IBM Applied Software Engineering Fundamentals – In Progress</li>
+  <li>B.S. in Engineering Management – May 2020, CSUN <a href="https://www.michaelsutter.com/ediploma?fn=diplomastatuscheck&key=01000000464296e82faa6b4f227fb5ee95bc3273e067a69879e99b9afcf3655c233276929cf9767c8adf2e3b1e07ab8dd54f6b53" target="_blank">🎓</a></li>
+  <li>M.S. in Engineering Management – May 2024, CSUN <a href="https://www.michaelsutter.com/ediploma?fn=diplomastatuscheck&key=0200000020e313b0eaa43f904cba4004aded3df13d46b09cc6a1f9be6213f2085719d747fc957c537c4b92c284f92a762a04b27f0a6ffe4cb0aaef6495b04e60d7141510" target="_blank">🎓</a></li>
+  <li>M.S. in Data Science – Expected 2027, CSUN <a href="https://www.parchment.com/u/award/bf57de9003902c6cb48e03fddfc02f48" target="_blank">🎓</a></li>
+</ul>
 
         <h3 id="contact">📫 Contact</h3>
-        <p>📍 Los Angeles, CA<br>
-        📧 jeanpaul.collazo.597@my.csun.edu</p>
+<p>
+  📍 Los Angeles, CA<br>
+  📧 <a href="mailto:jeanpaul.collazo.597@my.csun.edu">jeanpaul.collazo.597@my.csun.edu</a><br>
+  📞 <a href="tel:+12136316172">(213) 631-6172</a>
+</p>
 
         <h3 id="interests">🌟 Personal Interests</h3>
         <ul>
