@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/profile.jpg" width="150" alt="Jean Paul Collazo Arguedas profile photo">
+  <img src="Washington_DC.jpg" width="150" alt="Jean Paul Collazo Arguedas profile photo">
 </p>
 
 
