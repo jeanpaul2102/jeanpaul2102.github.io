@@ -1,24 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jean Paul Collazo</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Paul Collazo | Data Science & Engineering Management Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = () => {
+            const theme = localStorage.getItem('theme') || 'light';
+            document.body.className = theme;
+        };
+
+        function toggleTheme() {
+            const current = document.body.className;
+            const next = current === 'light' ? 'dark' : 'light';
+            document.body.className = next;
+            localStorage.setItem('theme', next);
+        }
+    </script>
 </head>
 <body>
-  <section class="intro-section">
-    <div class="intro-image">
-      <img src="Washington_DC.jpg" alt="Jean Paul Collazo" />
-    </div>
-    <div class="intro-text">
-      <h1>Jean Paul Collazo</h1>
-      <h2>Data Science & Engineering Management</h2>
-      <p>
-        Engineering Management graduate with a UCLA Data Science Certificate and currently pursuing an M.S. in Data Science at CSUN (expected 2027). Skilled in Python, R, SQL, and machine learning. Passionate about applying data science to drive business decisions and improve processes.
-      </p>
-      <a href="#" class="btn">Download Resume</a>
-    </div>
-  </section>
+    <header>
+        <img src="https://github.com/jeanpaul2102/jeanpaul2102.github.io/raw/main/Washington_DC.jpg" alt="Jean Paul Collazo in Washington DC" style="max-width: 180px; border-radius: 10px; margin-bottom: 15px;">
+        <h1>Jean Paul Collazo</h1>
+        <p>Data Science & Engineering Management Portfolio</p>
+        <nav>
+            <a href="https://github.com/jeanpaul2102" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/jeanpaulcollazoarguedas" target="_blank">LinkedIn</a>
+            <a href="mailto:jeanpaul.collazo.597@my.csun.edu">Email Me</a>
+            <button onclick="toggleTheme()">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <section id="full-pdf-content">
+        <h2>Jean Paul Collazo | Data Science & Engineering Management Portfolio</h2>
+        <p>👋 Hello everyone, I’m Jean Paul Collazo<br>
+        Engineering Management graduate with a UCLA Data Science Certificate and currently pursuing an M.S. in Data Science at CSUN (expected 2027). Skilled in SQL, Python, R, and data visualization, with a strong foundation in database design, debugging, and system testing. Experienced in Agile project execution, cross-functional collaboration, and using data-driven methods to improve workflows, data quality, and turnaround times for enterprise-level systems.</p>
+
+        <h3>💼 Work Experience</h3>
+        <p><strong>Data Management Analyst</strong><br>
+        Taco Bell Corporation – Irvine, CA<br>
+        Dec 2023 – Present</p>
+        <ul>
+            <li>Lead data integration and SOP development for national and regional projects, focusing on ETL workflows.</li>
+            <li>Extract, transform, and validate PLU data using SQL, ensuring compliance with business and franchisee standards.</li>
+            <li>Use Retool and AWS S3 to manage POS-related visual assets including Discount Keys, Screensavers, and Training Images.</li>
+            <li>Drive Agile development through daily Scrum stand-ups, Jira tracking, and inter-team collaboration with Marketing, Ops, and Engineering.</li>
+            <li>Reduced national project execution time by 35% through workflow optimization and standardized documentation.</li>
+            <li>Mentor new analysts and standardize best practices across project documentation, data quality, and cross-team communication.</li>
+        </ul>
+
+        <h3>🎓 Education</h3>
+        <ul>
+            <li>M.S. in Data Science – Expected May 2027, California State University, Northridge</li>
+            <li>M.S. in Engineering Management – May 2024, California State University, Northridge</li>
+            <li>B.S. in Engineering Management – May 2020, California State University, Northridge</li>
+        </ul>
+
+        <h3>🚀 Projects</h3>
+        <ul>
+    <li><strong>Customer Purchase Behavior Analysis with Market Basket Mining (Dec 2024):</strong> Analyzed over 3 million transactions from the Instacart Online Grocery Dataset using Python (Pandas, Matplotlib) to identify purchasing trends, popular products, and peak shopping hours. Applied FP-Growth and Apriori algorithms to extract high-confidence association rules across departments, revealing product bundles with strong lift values. Visualized department-level performance, item frequency, and transaction size distributions to support promotional strategies.</li>
+
+    <li><strong>Smart Meter Fraud Detection (Dec 2024):</strong> Analyzed 20 days of smart meter data to detect non-technical losses (NTLs) using time series visualization and statistical modeling. Simulated real-world tampering scenarios to assess anomalies in usage behavior. Engineered features with tsfresh to improve anomaly detection accuracy.</li>
+
+    <li><strong>Advanced Housing Price Prediction with ML Models (Sep 2024):</strong> Evaluated Random Forest, XGBoost, and Neural Network models on the Kaggle Ames Housing dataset. Preprocessed data with scaling and encoding, compared models via RMSE. Random Forest performed best (Test RMSE: 34,896), showing strong generalization.</li>
+
+    <li><strong>California Housing Price Prediction (Sep 2024):</strong> Built a predictive model using Random Forest in R to estimate housing prices across California. Created a full pipeline with feature engineering, scaling, and dummy variable creation. Identified median income and proximity to ocean as key predictors.</li>
+
+    <li><strong>Catapult System Optimization (May 2024):</strong> Applied Six Sigma DMAIC and MSA techniques to analyze catapult launch performance. Used JMP SAS and Excel to build a regression model and optimize design factors. Recommended calibrated configurations with a 7-foot accuracy target.</li>
+
+    <li><strong>Water Consumption Management System (May 2024):</strong> Designed and normalized a relational SQL Server database to monitor usage across districts. Developed stored procedures for consumption tracking and anomaly alerts. Built Tableau dashboards to visualize regional usage patterns.</li>
+
+    <li><strong>Leadership Transition and Organizational Psychology (Apr 2024):</strong> Assessed psychological and physiological challenges during role transitions using leadership theories. Integrated Maslow’s Hierarchy, Herzberg’s Theory, and Transformational Leadership for strategy. Proposed wellness-focused onboarding to improve leadership outcomes.</li>
+
+    <li><strong>Investment Evaluation Using Monte Carlo Simulation (Apr 2024):</strong> Simulated 5,000 scenarios to compare full vs. semi-automation investments using Excel. Used PMT and confidence intervals to assess ROI and risk tolerance. Recommended semi-automation for balanced returns and minimal disruption.</li>
+
+    <li><strong>Strategic Data Analytics for Engineering Decision-Making (Dec 2023):</strong> Modeled KPI interdependencies using DEMATEL and prioritized options via TOPSIS. Used Fuzzy Logic and MATLAB to synthesize expert inputs for sustainable decision-making. Developed ranking models for supplier selection and process prioritization.</li>
+
+    <li><strong>Golazo Sports Property Management LLC (Dec 2023):</strong> Led market research to support the launch of a community sports facility in Los Angeles. Conducted surveys and SWOT analysis, using Census data and Google Forms. Developed a strategic business plan with demand forecasting and pricing strategy.</li>
+
+    <li><strong>Quality Management in the Food Industry (May 2023):</strong> Compared ISO-compliant quality frameworks (Nestlé) vs. failed TQM case (PCA). Applied Fishbone Diagrams, HACCP, and Root Cause Analysis for gap evaluation. Proposed supplier auditing and food safety strategies.</li>
+
+    <li><strong>Environmental Impact of Natural Gas Vehicles in Peru (May 2023):</strong> Built a regression model in Excel to analyze the relationship between emissions and environmental factors. Found temperature was the most significant factor affecting nitrous oxide output. Recommended limited use in fluctuating climates and promotion in coastal areas.</li>
+
+    <li><strong>Manufacturing Quality Analysis (May 2023):</strong> Mapped over 250 defects using Excel to analyze root causes in assembly lines. Identified misalignment and fastener issues as key contributors to rework. Proposed redesign and station realignment for productivity gains.</li>
+
+    <li><strong>Lean Process Improvement Strategy (Dec 2022):</strong> Applied Lean Thinking and Value Stream Mapping to reduce waste in production. Proposed a Pull system to align output with demand and cut down inventory delays. Delivered action plan for continuous improvement and performance monitoring.</li>
+
+    <li><strong>Supply Chain Strategy for Michelin (Dec 2022):</strong> Evaluated 6 key drivers in global sourcing and production planning. Used DDI, RCCA, and KPI forecasting to guide long-term strategy. Delivered a risk mitigation framework for improving resilience and supplier performance.</li>
+</ul>
+
+        <h3>🛠 Technical Skills</h3>
+        <ul>
+            <li><strong>Languages:</strong> Python, R, SQL, Java, C++, COBOL, VBA</li>
+            <li><strong>Libraries & Tools:</strong> Pandas, Scikit-learn, XGBoost, TensorFlow, tsfresh, ggplot2, Retool, Visual Studio, Android Studio, Tableau, Power BI</li>
+            <li><strong>Databases:</strong> Microsoft SQL Server, Oracle</li>
+            <li><strong>Cloud/Platforms:</strong> AWS S3, Linux, EDM</li>
+            <li><strong>Project Tools:</strong> Jira, SNOW, Asana, Monday.com, SAP ERP, OneNote</li>
+            <li><strong>Statistical & Analytical Tools:</strong> Excel (PMT, Solver), JMP SAS, Minitab</li>
+            <li><strong>Frameworks & Concepts:</strong> SDLC, Agile, Scrum, ETL, Version Control, Lean Manufacturing</li>
+            <li><strong>Data Science Techniques:</strong> Regression, Classification, Clustering, Market Basket Analysis, Anomaly Detection, Monte Carlo Simulation, Feature Engineering, Time Series, PCA</li>
+        </ul>
+
+        <h3>📜 Certifications</h3>
+        <ul>
+            <li>UCLA Data Science Certificate – Sep 2024</li>
+            <li>Six Sigma Green Belt (CSUN) – May 2024</li>
+            <li>Google Cybersecurity Professional Certificate – Jan 2024</li>
+            <li>IBM Applied Software Engineering Fundamentals – In Progress</li>
+        </ul>
+
+        <h3>📫 Contact</h3>
+        <p>📍 Los Angeles, CA<br>
+        📧 jeanpaul.collazo.597@my.csun.edu</p>
+
+        <h3>🌟 Personal Interests</h3>
+        <ul>
+            <li>🌍 Global Explorer – I love learning about world geography, cultures, and how different regions influence people, systems, and perspectives.</li>
+            <li>📚 Cultural Learner – I love exploring Latin American culture and history. I believe understanding where we come from is key to understanding where we’re going.</li>
+            <li>💃 Dancer at Heart – I enjoy dancing as a way to express myself and stay connected to rhythm and joy.</li>
+            <li>🏝 Beach Meditator – The ocean is my reset button. I try to visit the beach often to reflect, meditate, and recharge.</li>
+            <li>🏊‍♂️ Dedicated Swimmer – Swimming keeps me grounded and focused. It’s my daily dose of clarity and strength.</li>
+            <li>🏋️‍♂️ Aspiring Lifter – I’ve started lifting weights at the gym and love the challenge of building strength and discipline.</li>
+            <li>🌆 City Explorer – I enjoy visiting new places, discovering different neighborhoods, and appreciating the small details that make each location unique.</li>
+            <li>🔍 Inherently Curious – I’m constantly seeking to understand new systems, technologies, and processes. Curiosity is my compass—especially when diving into data.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jean Paul Collazo | Hosted on GitHub Pages</p>
+    </footer>
 </body>
 </html>
