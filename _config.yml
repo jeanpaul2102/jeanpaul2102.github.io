@@ -1,15 +1,18 @@
+title: "Jean Paul Collazo Portfolio"
+description: "Data Science & Engineering Management Portfolio Website"
+url: "https://jeanpaul2102.github.io"
+baseurl: "" 
+theme: null
 
----
+author:
+  name: "Jean Paul Collazo"
+  email: "jeanpaul.collazo.597@my.csun.edu"
+  linkedin: "https://www.linkedin.com/in/jeanpaulcollazoarguedas"
+  summary: >
+    I’m Jean Paul Collazo — an Engineering Management graduate and aspiring Data Scientist
+    pursuing a second master’s at CSUN. My goal is to improve decision-making and efficiency
+    across organizations using data science, systems thinking, and a passion for learning.
 
-## 👨‍💻 About Me
-
-I’m Jean Paul Collazo — an Engineering Management graduate and aspiring Data Scientist pursuing a second master’s at CSUN. My goal is to improve decision-making and efficiency across organizations using data science, systems thinking, and a passion for learning.
-
-📫 Email: jeanpaul.collazo.597@my.csun.edu  
-🔗 LinkedIn: [@jeanpaulcollazoarguedas](https://www.linkedin.com/in/jeanpaulcollazoarguedas)
-
----
-
-## 🛠️ License
-
-This project is licensed under an open-use model. Feel free to fork, adapt, or use this portfolio layout with credit.
+license:
+  type: "Open Use"
+  note: "This project is licensed under an open-use model. Feel free to fork, adapt, or use this portfolio layout with credit."
