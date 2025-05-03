@@ -25,6 +25,3 @@ You can view the portfolio live at:
 - **Technical Stack**: Python, R, SQL, Tableau, TensorFlow, AWS S3, Retool, Excel, JMP, and more
 
 ---
-
-## 📂 File Structure
-
