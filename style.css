@@ -1,59 +1,117 @@
+:root {
+  --bg-light: #fdfdfd;
+  --text-light: #222;
+  --bg-dark: #121212;
+  --text-dark: #f4f4f4;
+  --accent: #0077cc;
+  --card-bg-light: #ffffff;
+  --card-bg-dark: #1f1f1f;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
   margin: 0;
+  padding: 0 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: var(--accent);
+  color: white;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a, nav button {
+  display: inline-block;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover, nav button:hover {
+  background: white;
+  color: var(--accent);
+}
+
+section {
+  background-color: var(--card-bg-light);
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 20px;
+  border-left: 5px solid var(--accent);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s;
+}
+
+body.dark section {
+  background-color: var(--card-bg-dark);
+}
+
+section h2, section h3 {
+  color: var(--accent);
+}
+
+ul {
+  margin: 10px 0 20px 20px;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
 }
 
-.intro-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 20px;
-  flex-wrap: wrap;
-  background-color: #fff;
-}
-
-.intro-image img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 20px;
-}
-
-.intro-text {
-  max-width: 600px;
-  margin: 20px;
-}
-
-.intro-text h1 {
-  font-size: 2.5em;
+ul li {
   margin-bottom: 10px;
 }
 
-.intro-text h2 {
-  font-size: 1.5em;
-  color: #007acc;
-  margin-bottom: 20px;
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: gray;
 }
 
-.intro-text p {
-  font-size: 1.1em;
-  line-height: 1.6;
-}
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.6em;
+  }
 
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #007acc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
+  nav a, nav button {
+    margin: 5px 5px;
+    padding: 6px 10px;
+    font-size: 0.9em;
+  }
 
-.btn:hover {
-  background-color: #005f99;
+  section {
+    padding: 15px;
+  }
 }
