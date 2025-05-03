@@ -1,4 +1,7 @@
-<img src="./assets/images/profile.jpg" alt="Jean Paul Collazo Arguedas" width="180" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+<p align="center">
+  <img src="assets/images/profile.jpg" width="150" alt="Jean Paul Collazo Arguedas profile photo">
+</p>
+
 
 # 👋 Hello everyone, I'm Jean Paul Collazo 
 
