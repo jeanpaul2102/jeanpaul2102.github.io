@@ -1,3 +1,5 @@
+<img src="./assets/images/profile.jpg" alt="Jean Paul Collazo Arguedas" width="180" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
 # 👋 Hi, I'm Jean Paul Collazo Arguedas
 
 Engineering Management graduate with a UCLA Data Science Certificate and currently pursuing an M.S. in Data Science at CSUN (expected 2027). Skilled in SQL, Python, R, and data visualization, with a strong foundation in database design, debugging, and system testing. Experienced in Agile project execution, cross-functional collaboration, and using data-driven methods to improve workflows, data quality, and turnaround times for enterprise-level systems.
