@@ -61,10 +61,15 @@ nav a, nav button {
   transition: background 0.2s, color 0.2s;
 }
 
-a:focus, button:focus {
+/* ✅ Updated focus and tap behavior for mobile-friendliness */
+a:focus-visible, button:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(0, 119, 204, 0.4); /* Optional: custom visible focus */
+  box-shadow: 0 0 0 2px rgba(0, 119, 204, 0.4); /* visible only for keyboard users */
   border-radius: 4px;
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent; /* remove tap highlight on mobile */
 }
 
 nav a:hover, nav button:hover {
