@@ -14,15 +14,16 @@
     }
 
     body::after {
-      content: "";
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 8px;
-      height: 100%;
-      background-color: #e6f0ff; /* Light blue line */
-      z-index: 1;
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background-color: var(--right-line-color); /* Unified light blue */
+    z-index: 1;  
     }
+
 
     body.dark {
       background-color: #121212;
