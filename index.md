@@ -151,3 +151,25 @@ Engineering Management graduate with a UCLA Data Science Certificate and current
 
 ---
 
+## 🌟 Personal Interests
+
+I’m not just passionate about data or engineering. I’m passionate about **self-discovery, movement, culture, and curiosity**. These values influence how I approach challenges in life and in data science.
+
+- 🌍 **Global Explorer** – I love learning about world geography, cultures, and how different regions influence people, systems, and perspectives.
+
+- 📚 **Cultural Learner** – I love exploring Latin American culture and history. I believe understanding where we come from is key to understanding where we’re going.
+
+- 💃 **Dancer at Heart** – I enjoy dancing as a way to express myself and stay connected to rhythm and joy.
+
+- 🏝️ **Beach Meditator** – The ocean is my reset button. I try to visit the beach often to reflect, meditate, and recharge.
+
+- 🏊‍♂️ **Dedicated Swimmer** – Swimming keeps me grounded and focused. It’s my daily dose of clarity and strength.
+
+- 🏋️‍♂️ **Aspiring Lifter** – I’ve started lifting weights at the gym and love the challenge of building strength and discipline.
+
+- 🌆 **City Explorer** – I enjoy visiting new places, discovering different neighborhoods, and appreciating the small details that make each location unique.
+
+- 🔍 **Inherently Curious** – I’m constantly seeking to understand new systems, technologies, and processes. Curiosity is my compass—especially when diving into data.
+
+---
+
