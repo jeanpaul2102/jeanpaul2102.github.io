@@ -14,16 +14,15 @@
     }
 
     body::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 8px;
-    height: 100%;
-    background-color: #0077cc; /* Unified light blue */
-    z-index: 1;  
+      content: "";
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 8px;
+      height: 100%;
+      background-color: #0077cc;
+      z-index: 1;  
     }
-
 
     body.dark {
       background-color: #121212;
@@ -67,6 +66,31 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
+
+    .notice {
+      background-color: #fff3cd;
+      border-left: 6px solid #ffc107;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .status-tag {
+      font-weight: bold;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .status-pending {
+      color: #856404;
+      background-color: #fff3cd;
+    }
+
+    .status-complete {
+      color: #155724;
+      background-color: #d4edda;
+    }
   </style>
 </head>
 
@@ -85,6 +109,10 @@
 </header>
 
 <div class="content-box">
+  <div class="notice">
+    <strong>Note:</strong> This page is currently being updated. All listed projects are completed, but detailed writeups, repositories, and supporting materials are being uploaded. Please check back soon for updates.
+  </div>
+
   <p>👋 Welcome! Here you’ll find a list of my academic and professional data science and engineering projects. Each one reflects my passion for solving real-world problems through analytics, experimentation, and optimization.</p>
 
 
