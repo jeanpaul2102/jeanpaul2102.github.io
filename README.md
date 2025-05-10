@@ -13,11 +13,11 @@ You can view the portfolio live at:
 
 ## 📌 Highlights
 
-- **Fully responsive** layout for mobile and desktop
-- **Dark/light theme toggle** with local storage
-- **Full project archive** with over a dozen data-driven and strategic case studies
-- **Experience at Taco Bell Corporation** leading POS integrations and data automation
-- **Showcases tools & methods** like SQL, Python, Tableau, XGBoost, Monte Carlo Simulations, tsfresh, and more
+- **Fully responsive** layout for mobile and desktop.
+- **Dark/light theme toggle** with local storage.
+- **Full project archive** with over a dozen data-driven and strategic case studies.
+- **Experience at Taco Bell Corporation** leading POS integrations and data automation.
+- **Showcases tools & methods** like SQL, Python, Tableau, XGBoost, Monte Carlo Simulations, tsfresh, and more.
 
 ---
 
